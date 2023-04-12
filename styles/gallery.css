@@ -1,0 +1,37 @@
+.container_gallery {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+
+.gallery__title {
+    position: absolute;
+    width: 201px;
+    height: 30px;
+    left: 124px;
+    
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    
+    
+}
+
+.gallery__slides{
+    height: 100%;
+    position: relative;
+}
+
+.gallery__slide{
+    position: absolute;
+    
+    width: 100%;
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+}
+
+.gallery__slide-avtive{
+    opacity: 1;
+  
+}
